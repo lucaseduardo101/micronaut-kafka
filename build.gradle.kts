@@ -35,6 +35,9 @@ dependencies {
 
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
 
+    //kafka
+    implementation("io.micronaut.kafka:micronaut-kafka")
+
 }
 
 
