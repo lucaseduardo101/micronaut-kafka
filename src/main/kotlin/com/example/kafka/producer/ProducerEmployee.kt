@@ -5,7 +5,7 @@ import io.micronaut.configuration.kafka.annotation.KafkaKey
 import io.micronaut.configuration.kafka.annotation.Topic
 
 @KafkaClient
-interface ProductEmployee {
+interface ProducerEmployee {
     @Topic("employees")
-    fun sendEmployee(@KafkaKey brand:String, name:String)
+    fun sendEmployee(@KafkaKey brand:String, codigo:String)
 }
